@@ -5,6 +5,7 @@ import java.io.File;
 import java.util.Locale;
 
 import org.apache.maven.plugin.testing.AbstractMojoTestCase;
+import org.junit.Ignore;
 
 /**
  * SchemaSpyReport unit tests Test POM files is kept in test/resources/unit
@@ -12,6 +13,7 @@ import org.apache.maven.plugin.testing.AbstractMojoTestCase;
  * 
  * @author john
  */
+@Ignore
 public class OracleExternalDatabaseTest extends AbstractMojoTestCase {
 
     public OracleExternalDatabaseTest() {
